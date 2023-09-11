@@ -6,6 +6,11 @@
     <title>Booking Form</title>
     <link rel="stylesheet" href="style2.css"/>
     <script src="https://kit.fontawesome.com/bc395aa669.js" crossorigin="anonymous"></script>
+    <script>
+        function Redirect(){
+            window.location="user.html"
+        }
+    </script>
   
 </head>
 <body>
@@ -13,7 +18,7 @@
     <div class="container">
         <div class="form-box">
             <h1 id="title">BOOK NOW</h1>
-            <form  action="user.html" method="post">
+            <form>
                 <div class="input-group">
                     <div class="input-field" >
                         <i class="fa-solid fa-user"></i>
@@ -49,7 +54,7 @@
                     </div>
                     <div class="btn-field">
                     
-                        <button type="submit"> Book </button>
+                        <input type="button" value="Book" onclick="Redirect();"/>
                         
                     </div>
 
